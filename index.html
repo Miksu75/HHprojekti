@@ -16,11 +16,6 @@ div.container {
   padding: 10px 20px;
 }
   
- .column 
-  {
-    flex: 33.33%;
-    padding: 5px;
-   } 
   
 </style>
 </head>
@@ -29,7 +24,8 @@ div.container {
 <h2>Moments and thoughts – the way I see things.</h2>
 
   <div class="polaroid">
-  <div class="column">  
+  <div class="row">
+    <div class="column">  
   <img src="5877_10151750931413534_1392706102_n.jpg" alt="5 Terre" style="width:100%">
   <div class="container">
     <p>Heatwave/Grand Canyon</p>
@@ -51,6 +47,15 @@ div.container {
     <p>That's the Beach/Los Angeles</p>
   </div>
 </div>
+    
+    
+    .row {
+    display: flex;
+    }
+    .column { 
+    flex: 33.33%;
+    padding: 5px;
+   } 
 
  <BR> 
  
