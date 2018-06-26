@@ -49,14 +49,18 @@ div.container {
 </div>
     
     
-    .row {
-    display: flex;
-    }
+   
     .column { 
-    flex: 33.33%;
+    float: left;
+    width: 33.33%;
     padding: 5px;
    } 
 
+    .row::after {
+    content:"";
+    clear: both;
+    display: table;
+    }
  <BR> 
  
  </BR>
